@@ -1,11 +1,13 @@
 import React, { useEffect, useState } from 'react'
 import  axios  from 'axios';
+import { useNavigate } from 'react-router-dom'
 
 function Suggestion() {
 
     const[profile,setProfile]=useState(null);
     const[suggestion,setSuggestion]=useState([]);
     const[followeduser,setFollowedUser]=useState({})
+    const navigate=useNavigate()
     
 
     useEffect(()=>{
@@ -47,7 +49,7 @@ function Suggestion() {
         <div >
         {profile ?(
         <div className='d-flex mb-3'>
-            <img className='rounded-circle  profPic'style={{ cursor: 'pointer' }} src={profile.profile_pic} alt="Profile" />
+            <img onClick={()=>{navigate('/Profile')}}  className='rounded-circle  profPic'style={{ cursor: 'pointer' }} src={profile.profile_pic} alt="Profile" />
             <h6 style={{ cursor: 'pointer' }}>{profile.username}</h6>
             <small className='ms-auto text-primary' style={{ cursor: 'pointer' }}>Switch</small>
         </div>):(

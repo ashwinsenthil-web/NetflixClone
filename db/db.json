@@ -162,6 +162,26 @@
       "id": "user_103",
       "username": "city_nights",
       "profile_pic": "http://localhost:3000/assest/profPic2.jpg"
+    },
+    {
+      "id": "user_102",
+      "username": "sunny_skies",
+      "profile_pic": "http://localhost:3000/assest/profPic1.jpg"
+    },
+    {
+      "id": "user_103",
+      "username": "city_nights",
+      "profile_pic": "http://localhost:3000/assest/profPic2.jpg"
+    },
+    {
+      "id": "user_104",
+      "username": "city_nights",
+      "profile_pic": "http://localhost:3000/assest/profPic2.jpg"
+    },
+    {
+      "id": "user_105",
+      "username": "city_nights",
+      "profile_pic": "http://localhost:3000/assest/profPic2.jpg"
     }
   ]
 }
