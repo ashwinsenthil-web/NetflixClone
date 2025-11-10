@@ -1,0 +1,187 @@
+{
+  "post": [
+    {
+      "id": "post_001",
+      "user": {
+        "id": "user_101",
+        "username": "sunny_skies",
+        "full_name": "Sunny Sky",
+        "profile_pic": "http://localhost:3000/assest/profPic1.jpg"
+      },
+      "image": {
+        "url": "http://localhost:3000/assest/img1.jpg",
+        "width": 640,
+        "height": 640
+      },
+      "caption": "Chasing waves and golden hues.",
+      "created_at": "2025-08-11T14:30:00Z",
+      "likes": {
+        "count": 128,
+        "users": [
+          {
+            "id": "user_102",
+            "username": "wave_rider"
+          },
+          {
+            "id": "user_103",
+            "username": "beach_bum"
+          }
+        ]
+      },
+      "comments": [
+        {
+          "id": "comment_001",
+          "from": {
+            "id": "user_104",
+            "username": "sunset_lover"
+          },
+          "text": "Absolute goals! 🌊",
+          "created_at": "2025-08-11T15:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "post_002",
+      "user": {
+        "id": "user_105",
+        "username": "city_nights",
+        "full_name": "City Nights",
+        "profile_pic": "http://localhost:3000/assest/profPic2.jpg"
+      },
+      "image": {
+        "url": "http://localhost:3000/assest/img2.jpg",
+        "width": 640,
+        "height": 640
+      },
+      "caption": "Neon dreams in the urban jungle.",
+      "created_at": "2025-08-10T20:45:00Z",
+      "likes": {
+        "count": 256,
+        "users": [
+          {
+            "id": "user_106",
+            "username": "urban_explorer"
+          },
+          {
+            "id": "user_107",
+            "username": "night_owl"
+          }
+        ]
+      },
+      "comments": [
+        {
+          "id": "comment_002",
+          "from": {
+            "id": "user_108",
+            "username": "lightseeker"
+          },
+          "text": "The vibe is unmatched! ✨",
+          "created_at": "2025-08-10T21:10:00Z"
+        },
+        {
+          "id": "comment_003",
+          "from": {
+            "id": "user_109",
+            "username": "city_dreamer"
+          },
+          "text": "We need this filter in real life!",
+          "created_at": "2025-08-10T21:22:00Z"
+        }
+      ]
+    }
+  ],
+  "Profile": {
+    "id": "user_101",
+    "username": "ashwin senthil kumar",
+    "full_name": "Sunny Sky",
+    "profile_pic": "http://localhost:3000/assest/profPic1.jpg"
+  },
+  "Suggestion": [
+    {
+      "id": "user_102",
+      "username": "sunny_skies",
+      "full_name": "Sunny Sky",
+      "profile_pic": "http://localhost:3000/assest/profPic1.jpg"
+    },
+    {
+      "id": "user_103",
+      "username": "city_nights",
+      "full_name": "City Nights",
+      "profile_pic": "http://localhost:3000/assest/profPic2.jpg"
+    },
+    {
+      "id": "user_104",
+      "username": "city_nights",
+      "full_name": "City Nights",
+      "profile_pic": "http://localhost:3000/assest/profPic2.jpg"
+    },
+    {
+      "id": "user_105",
+      "username": "city_nights",
+      "full_name": "City Nights",
+      "profile_pic": "http://localhost:3000/assest/profPic2.jpg"
+    }
+  ],
+  "Story": [
+    {
+      "id": "1",
+      "user": {
+        "id": "user_101",
+        "username": "sunny_skies",
+        "full_name": "Sunny Sky",
+        "profile_pic": "http://localhost:3000/assest/profPic1.jpg"
+      },
+      "image": {
+        "url": "http://localhost:3000/assest/StoryImg.webp",
+        "width": 640,
+        "height": 640
+      }
+    },
+    {
+      "id": "2",
+      "user": {
+        "id": "user_105",
+        "username": "city_nights",
+        "full_name": "City Nights",
+        "profile_pic": "http://localhost:3000/assest/profPic2.jpg"
+      },
+      "image": {
+        "url": "http://localhost:3000/assest/StoryImg2.webp",
+        "width": 640,
+        "height": 640
+      }
+    }
+  ],
+  "followers": [
+    {
+      "id": "user_102",
+      "username": "sunny_skies",
+      "profile_pic": "http://localhost:3000/assest/profPic1.jpg"
+    },
+    {
+      "id": "user_103",
+      "username": "city_nights",
+      "profile_pic": "http://localhost:3000/assest/profPic2.jpg"
+    },
+    {
+      "id": "user_102",
+      "username": "sunny_skies",
+      "profile_pic": "http://localhost:3000/assest/profPic1.jpg"
+    },
+    {
+      "id": "user_103",
+      "username": "city_nights",
+      "profile_pic": "http://localhost:3000/assest/profPic2.jpg"
+    },
+    {
+      "id": "user_104",
+      "username": "city_nights",
+      "profile_pic": "http://localhost:3000/assest/profPic2.jpg"
+    },
+    {
+      "id": "user_105",
+      "username": "city_nights",
+      "profile_pic": "http://localhost:3000/assest/profPic2.jpg"
+    }
+  ]
+}
