@@ -7,7 +7,7 @@ import LoginScreen from './LoginScreen';
 
 function App() {
 
-  const user={name:"ashwin"};
+  const user=null;
   return (
     <div className='app'>
       <BrowserRouter>
@@ -15,7 +15,7 @@ function App() {
 
       <Routes>
         {!user ?(
-          <Route path="/s" element={<LoginScreen />} />
+          <Route path="/l" element={<LoginScreen />} />
         ):(
           <Route path="/" element={<HomeScreen />} />
         )}
