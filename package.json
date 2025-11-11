@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
   "name": "netflix-clone-react",
   "version": "1.0.0",
   "private": true,
@@ -18,10 +17,6 @@
   "devDependencies": {
     "@vitejs/plugin-react": "^4.3.2",
     "vite": "^7.2.2"
-=======
-  "dependencies": {
-    "axios": "^1.11.0",
-    "react-router-dom": "^7.8.2"
->>>>>>> 8ee0ae4782ca2128d63d7d9664c2450ca37bcb54
   }
+  
 }
