@@ -1,8 +1,12 @@
 import React, { useState,useEffect } from 'react'
 import './Nav.css'
+import { useNavigate } from 'react-router-dom';
+import ProfileScreen from './ProfileScreen';
 
 function Nav() {
 const[scrollNav,setScrollNav]=useState(false);
+
+const Navigate=useNavigate();
 
 function scroll(){
   if(window.scrollY>100){
@@ -21,8 +25,8 @@ useEffect(()=>{
   return (
     <div className={`nav ${scrollNav && 'nav-black'}`}>
         <div className='nav-contents w-100 '>
-            <img src="/netflix-logo-removebg-preview.png" alt='n' className='net-logo'/>
-            <img src="/netflix-avatar.jpg" alt="" className='net-avatar' />
+            <img onClick={()=>{Navigate('/')}} src="/netflix-logo-removebg-preview.png" alt='n' className='net-logo'/>
+            <img onClick={()=>{Navigate('/profile')}} src="/netflix-avatar.jpg" alt="" className='net-avatar' />
             
         </div>
 

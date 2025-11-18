@@ -11,14 +11,14 @@ function HomeScreen() {
         <Nav/>
         
         <Banner/> 
-        <Row title='NETFLIX ORIGINALS' url={request.originals} isLarge={true}/>
-        <Row title='Top Rated' url={request.top_rated} isLarge={false} /> 
-        <Row title='Upcoming' url={request.upcoming} isLarge={false}/> 
-        <Row title='Tv Series' url={request.tv} isLarge={false}/>
+        <Row title='NETFLIX ORIGINALS' fetchurl={request.originals} isLarge={true}/>
+        <Row title='Top Rated' fetchurl={request.top_rated} isLarge={false} /> 
+        <Row title='Upcoming' fetchurl={request.upcoming} isLarge={false}/> 
+        <Row title='Tv Series' fetchurl={request.tv} isLarge={false}/>
          
         
-        <Row title='Now Playing' url={request.now_playing} isLarge={false}/>
-        <Row title='Popular' url={request.popular} isLarge={false}/>          
+        <Row title='Now Playing' fetchurl={request.now_playing} isLarge={false}/>
+        <Row title='Popular' fetchurl={request.popular} isLarge={false}/>          
     </div>
   )
 }

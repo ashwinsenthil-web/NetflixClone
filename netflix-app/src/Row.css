@@ -51,3 +51,42 @@
     transform: scale(1.1);
     opacity: 1; 
 }
+
+
+@media only screen and (max-width: 600px) {
+  .row_title {
+    font-size: 16px;
+    padding-left: 10px;
+  }
+
+  /* POSTER ROW */
+  .row_poster {
+    padding-left: 10px !important;
+  }
+
+  .row_movie {
+    max-height: 120px !important;
+    margin-right: 8px !important;
+  }
+
+  .row_posters {
+    max-height: 180px !important;
+  }
+
+  /* SCROLL BAR HIDE */
+  .row_poster::-webkit-scrollbar {
+    display: none;
+  }
+
+    .youtube_container {
+    padding-bottom: 56% !important;
+    height: 0 !important;
+  }
+
+  .youtube_container iframe {
+    width: 100% !important;
+    height: 100% !important;
+  }
+
+
+}

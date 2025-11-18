@@ -1,0 +1,150 @@
+.ProfileScreen_info > img{
+    width: 80px;
+    max-height: 80px;
+    
+}
+
+.ProfileScreen_content{
+    height: 100vh;
+}
+
+.ProfileScreen_conts2 > h1{
+    color: white;
+
+}
+
+.ProfileScreen_conts2{
+    padding-top: 150px;
+    padding-left: 400px;
+}
+
+.ProfileScreen_info{
+    display: flex;
+}
+
+.ProfileScreen_account > h6{
+    color: white;
+    background-color: gray;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 7px;
+    padding-right:200px;
+    font-weight: 500;
+}
+
+.ProfileScreen_plan > button{
+    color: white;
+    background-color: red;
+    padding: 5px 180px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+   
+}
+
+.ProfileScreen_plan > button:hover{
+    background-color: #B22222;
+    transition: all 0.5s ease;
+    
+}
+
+.ProfileScreen_account{
+    margin-left: 20px;
+}
+
+.ProfileScreen_plan > h4{
+    color: white;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.profile-line{
+    background-color:darkgray; 
+     border: 0;
+  height: 1px;
+  
+  margin: 10px 0;
+}
+
+/* ---------- MOBILE (max-width: 600px) ---------- */
+@media only screen and (max-width: 600px) {
+
+  .ProfileScreen_conts2 {
+    padding-top: 100px !important;
+    padding-left: 20px !important;
+    padding-right: 20px;
+  }
+
+  .ProfileScreen_conts2 > h1 {
+    font-size: 24px !important;
+    text-align: center;
+  }
+
+  .ProfileScreen_info {
+    flex-direction: column; /* stack vertically */
+    align-items: center;
+    text-align: center;
+  }
+
+  .ProfileScreen_info > img {
+    width: 70px !important;
+    height: 70px !important;
+  }
+
+  .ProfileScreen_account {
+    margin-left: 0 !important;
+    margin-top: 15px;
+    width: 100%;
+  }
+
+  /* Email box */
+  .ProfileScreen_account > h6 {
+    padding: 10px !important;
+    padding-right: 10px !important;
+    font-size: 14px;
+    width: 100%;
+    display: block;
+  }
+
+  /* Plans Section */
+  .ProfileScreen_plan > h4 {
+    font-size: 16px !important;
+    text-align: center;
+  }
+
+  .profile-line {
+    width: 100%;
+  }
+
+  /* Sign Out button */
+  .ProfileScreen_plan > button {
+    width: 100% !important;
+    padding: 12px 0 !important;
+    font-size: 14px;
+  }
+
+}
+
+/* ---------- TABLETS (max-width: 900px) ---------- */
+@media only screen and (max-width: 900px) {
+
+  .ProfileScreen_conts2 {
+    padding-left: 100px;
+    padding-top: 120px;
+  }
+
+  .ProfileScreen_info {
+    flex-wrap: wrap;
+  }
+
+  .ProfileScreen_account > h6 {
+    padding-right: 50px;
+  }
+
+  .ProfileScreen_plan > button {
+    padding: 8px 50px;
+  }
+}
+
+
+
